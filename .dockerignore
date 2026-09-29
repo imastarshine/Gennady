@@ -1,0 +1,10 @@
+.env
+.venv/
+.idea/
+__pycache__/
+.DS_Store
+*.db
+*.db-journal
+poetry.lock
+logs/
+config.json

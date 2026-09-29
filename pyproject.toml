@@ -1,0 +1,19 @@
+[project]
+name = "gennady"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "starshine",email = "starshine@imastarshine.ru"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pytelegrambotapi (>=4.36.1,<5.0.0)",
+    "python-dotenv (>=1.2.3,<2.0.0)",
+    "aiosqlite (>=0.22.1,<0.23.0)",
+    "emoji (>=2.15.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
